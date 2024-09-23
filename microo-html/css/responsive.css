@@ -1,0 +1,107 @@
+/*--------------------------------------------------------------------- 
+File Name: responsive.css 
+---------------------------------------------------------------------*/
+
+@media (min-width: 1343px) and (max-width: 1500px) {}
+
+@media (min-width: 1200px) and (max-width: 1342px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .banner_main .bluid h1 {
+        font-size: 110px;
+        line-height: 136px;
+    }
+    .about_img {
+        padding-right: 0;
+    }
+    .helpful ul li {
+        padding-right: 22px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .titlepage h2 {
+        font-size: 37px;
+        line-height: 41px;
+    }
+    .service_img {
+        height: 226px;
+        width: 226px;
+    }
+    .about_img {
+        padding-right: 0;
+    }
+    .helpful ul li {
+        padding-right: 2px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .airmic {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .about_img {
+        padding-right: 0;
+    }
+    .about_img figure img {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    header {
+        padding: 33px 0px;
+    }
+    .d_none {
+        display: none !important;
+    }
+    ul.email {
+        margin-top: -43px;
+    }
+    .logo {
+        display: block;
+        width: 144px;
+        float: left;
+    }
+    .airmic {
+        padding-top: 60px;
+        margin-bottom: 30px;
+    }
+    .airmic h1 {
+        font-size: 53px;
+        line-height: 53px;
+    }
+    #top_section {
+        height: 100%;
+    }
+    .banner_main .bluid .read_more {
+        margin-right: 5px;
+        max-width: 124px;
+        height: 48px;
+        line-height: 48px;
+        font-size: 16px;
+    }
+    .titlepage h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .about .titlepage {
+        padding-bottom: 40px;
+    }
+    .testomoniam_text {
+        padding: 40px 25px;
+    }
+    .about_img {
+        padding-right: 0;
+    }
+    .mics {
+        width: 290px;
+    }
+    .mics_icon {
+        width: 261px;
+    }
+    .d_none {
+        display: none;
+    }
+}
